@@ -1,0 +1,16 @@
+
+name: YouTube Automation Test
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 3 * * *"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check cloud automation
+        run: echo "Cloud automation is running!"
+
+        
