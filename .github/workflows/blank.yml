@@ -12,5 +12,4 @@ jobs:
     steps:
       - name: Check cloud automation
         run: echo "Cloud automation is running!"
-
         
